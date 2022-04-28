@@ -2,10 +2,8 @@ import torch
 import torch.nn as nn
 import pretrainedmodels
 
-from . import resnet
 from . import decayresnet
 from . import decaydensenet
-from .decayrelu import DecayReLU
 
 
 class Wrap(nn.Module):
